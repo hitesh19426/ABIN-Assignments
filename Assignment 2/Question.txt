@@ -1,0 +1,42 @@
+Instructions:
+1) Allowed programming language is python.
+2) Write clean code with proper comments at appropriate places as it will be checked.
+3) You should submit a ZIP file consisting of the program and a pdf file listing the program and sample screenshots of its working. Name the ZIP file as: ABIN-A2-<Name>-<RollNo>. 
+
+
+QUESTION:
+For a collection of strings, a larger string containing every one of the smaller strings as a substring is called a superstring.
+By the assumption of parsimony, a shortest possible superstring over a collection of reads serves as a candidate chromosome.
+
+Given: A collection of DNA strings of equal length.
+The dataset is guaranteed to satisfy the following condition: there exists a unique way to reconstruct the entire chromosome from these reads by gluing together pairs of reads that overlap by more than half their length.
+
+Return: A shortest superstring containing all the given strings (thus corresponding to a reconstructed chromosome).Sample Dataset
+
+
+TEST CASE 1:
+SAMPLE INPUT :
+> Sequence1
+ ATTAGACCTG
+ >Sequence2
+ CCTGCCGGAA 
+>Sequence3 
+AGACCTGCCG
+ >Sequence4 
+GCCGGAATAC
+
+EXPECTED OUTPUT :
+ATTAGACCTGCCGGAATAC
+
+
+
+TEST CASE 2:
+SAMPLE INPUT :
+>PX1CG29 
+TTAACACTTTCGGATATTTCTGATG 
+>PX1CG35 
+CTTTCGGATATTTCTGATGAGTCGA
+
+
+EXPECTED OUTPUT:
+TTAACACTTTCGGATATTTCTGATGAGTCGA

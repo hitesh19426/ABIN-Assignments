@@ -1,0 +1,8 @@
+Input: Gene Expression Matrix : SRP026387_scaledcounts.csv
+
+Metadata : SRP026387_metadata.csv
+
+
+Question:
+1) Perform Differential Expression Analysis between Normal and Cancer groups.
+2) Show p-value of each genes between two groups.
